@@ -3842,6 +3842,7 @@ GameObject:
   - component: {fileID: 1556676614}
   - component: {fileID: 1556676617}
   - component: {fileID: 1556676618}
+  - component: {fileID: 1556676619}
   m_Layer: 0
   m_Name: Enemy Frog
   m_TagString: Untagged
@@ -4018,6 +4019,17 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!247 &1556676619
+ConstantForce2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1556676613}
+  m_Enabled: 1
+  m_Force: {x: 0, y: 0}
+  m_RelativeForce: {x: 0, y: 0}
+  m_Torque: 10
 --- !u!1 &1568530515
 GameObject:
   m_ObjectHideFlags: 0
